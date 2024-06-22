@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct ListItem: Identifiable, Equatable {
+    var id = UUID()
+    var name: String
+}
